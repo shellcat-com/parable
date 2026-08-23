@@ -65,7 +65,7 @@ export function SiteNav() {
           <CommandMenu />
           <ThemeToggle />
           <a
-            href="https://github.com/bswxyz/parable"
+            href="https://github.com/shellcat-com/parable"
             target="_blank"
             rel="noopener"
             aria-label="GitHub"

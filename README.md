@@ -92,7 +92,7 @@ Components span **text animations, interactive, hero backgrounds, visual effects
 Templates are complete sites, so they're cloned rather than added:
 
 ```bash
-npx degit bswxyz/formwork-neon my-site
+npx degit shellcat-com/formwork-neon my-site
 ```
 
 <br>

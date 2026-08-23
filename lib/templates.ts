@@ -24,8 +24,8 @@ export interface Template {
   isNew?: boolean;
 }
 
-const gh = (slug: string) => `https://bswxyz.github.io/${slug}/`;
-const repo = (slug: string) => `https://github.com/bswxyz/${slug}`;
+const gh = (slug: string) => `https://shellcat-com.github.io/${slug}/`;
+const repo = (slug: string) => `https://github.com/shellcat-com/${slug}`;
 
 function t(
   slug: string,
@@ -44,7 +44,7 @@ function t(
     tags,
     liveUrl: gh(slug),
     repo: repo(slug),
-    degit: `bswxyz/${slug}`,
+    degit: `shellcat-com/${slug}`,
     thumb: `/templates/${slug}.jpg`,
   };
 }
